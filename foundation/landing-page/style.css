@@ -1,0 +1,167 @@
+* {
+    font-family: Roboto;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    max-width: 800px;
+    margin: 0 auto; /* This centers the div while keeping background to full page width */
+}
+
+header {
+    background-color: #1f2937;
+}
+.header-container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    color: #F9FAF8;
+    align-items: center;
+
+}
+
+.logo-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.nav-links  ul {
+    list-style: None;
+    display: flex;
+
+}
+.nav-links ul li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: None;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* header content */
+.header-content {
+    display: flex;
+    padding: 100px 0px;
+    align-items: center;
+}
+.header-content .header-content-left .main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-content .header-content-left .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content .header-content-left button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    min-width: 80px;
+    font-weight: 900;
+}
+.header-content img {
+    max-width: 400px;
+}
+
+/* why us */
+.why-us-container {
+    padding-bottom: 10px;
+}
+.why-us-container .title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.why-us-container ul {
+    display: flex;
+    list-style: None;
+    justify-content: space-between;
+}
+
+.why-us-container li {
+    flex:1;
+}
+
+
+.why-us-container li img {
+    max-width: 150px;
+    border: 3px solid  #3882F6;
+    border-radius: 5px;
+    padding: 0 auto;
+}
+.why-us-container li p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+}
+
+/* Review */
+
+.review-bg {
+    background-color: #E5E7EB;
+    margin: 0 auto;
+}
+
+.review-container {
+    color: #1F2937;
+    max-width: 600px;
+}
+
+.review-container .quote {
+    padding-top: 50px;
+    font-size: 36px;
+}
+
+.review-container .author {
+    font-weight: 900;
+    padding-bottom: 50px;
+    text-align: right;
+    margin:0;
+}
+
+
+.signup-container{
+    color:#E5E7EB;
+    text-align: center;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 50px auto;
+    background-color: #3882F6;
+    border-radius: 4px;
+}
+
+.signup-container .items {
+    flex: 1
+}
+.signup-container button {
+    border: 3px solid #E5E7EB;
+    color: #E5E7EB;
+    min-width: 70px;
+    background-color: #3882F6;
+    border-radius: 4px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
+}
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
