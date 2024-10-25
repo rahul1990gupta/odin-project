@@ -1,0 +1,23 @@
+.body-container {
+    display:flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    flex: 1;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#result {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: larger;
+}
