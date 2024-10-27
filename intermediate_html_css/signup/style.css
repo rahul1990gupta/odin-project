@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "norse";
+    src: url("./Norse-Bold.otf");
+}
+
+body {
+    display: flex;
+    margin:0 auto;
+    max-width:1800px;
+}
+
+.left {
+    background-image: url(./green-leaves.avif);
+    background-size: 100vh;
+    /* max-width: 40%;*/
+    min-height: 100vh; 
+    flex:1;
+    color: white;
+    text-align: center;
+
+}
+
+.header {
+    font-size: 5rem;
+    font-family: "norse";
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 300px;
+}
+
+.footer {
+    margin-top: 600px;
+    font-weight: 900;
+}
+
+.right {
+    flex:1;
+    padding: 30px;
+    margin-top: 100px;
+    min-height: 100vh;
+
+}
+.intro {
+    background-color: rgb(250, 250, 250);
+}
+
+.form {
+    margin-top: 50px ;
+}
+button {
+    margin-top: 30px;
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    width: 10rem;
+    height: 2rem;
+}
+
+
+.row {
+    display:flex;
+    gap:30px;
+    margin-top: 30px;
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: x-small;
+    font-weight: 900;
+}
+
+a:link {
+    color: green
+}
+
+input[type="password"] {
+    border:none;
+    border: 1px solid red;
+
+}
+input:focus {
+
+    border:4px solid blue;
+    box-shadow: 1px 1px blue; 
+
+}
+.error {
+    color: red;
+    font-size: x-small;
+    font-weight: 300;
+}

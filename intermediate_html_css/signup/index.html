@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="left">
+        <div class="header">
+            <img src="./odin-lined.png" width="50px">
+            ODIN
+        </div>
+        <div class="footer">
+            <small> Photo by Halie West on Unsplash</small>
+        </div>
+    </div>
+    <div class="right">
+        <div class="intro">
+            <strong>
+                This is not a real online service! You know you need something like this in your 
+                life to help you realize your deepest dreams.<br>
+                Sign Up <em>now</em> to get started.
+            </strong>
+            <br><br>
+            <strong>
+                You <em>know</em> you want to.
+            </strong>
+    
+
+        </div>
+
+        <div class="form">
+            <form>
+                <strong>Let's do this! </strong><br><br>
+                <div class="row">
+                    <div class="cell">
+                        <label for="first_name" >FIRST NAME</label>
+                        <input type="text" name="first_name">
+                    </div>
+                    <div class="cell">
+                        <label for="last_name" >LAST NAME</label>
+                        <input type="text" name="last_name">
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="cell">
+                        <label for="email" >EMAIL</label>
+                        <input type="email" 
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                            name="email">
+                    </div>
+                    <div class="cell">
+                        <label for="phone_number" >PHONE NUMBER</label>
+                        <input type="number" minlength="10" maxlength="10" name="phone_number">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="cell">
+                        <label for="password" >PASSWORD</label>
+                        <input type="password" minlength=8 name="password">
+                        <div class="error">
+                            *Passwords do not match
+                        </div>
+                    </div>
+                    
+                    <div class="cell">
+                        <label for="phone_number" >CONFIRM PASSWORD</label>
+                        <input type="password" minlength=8 name="confirm_password">
+                    </div>
+                </div>
+
+                <button type="submit"> Create Account</button>
+            </form>
+            Already have an account? <a href="#">Log In</a>
+        </div>
+
+    </div>
+</body>
+</html>
